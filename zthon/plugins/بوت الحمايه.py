@@ -187,7 +187,7 @@ async def _(event):
     command=("فتح", plugin_category),
     info={
         "header": "اوامــر فتـح الحمـاية الخـاصه بـ المجمـوعـات",
-        "الوصـف": "اوامـر ذكيـه لـ قفـل / فتـح حمـاية المجمـوعـات بالمسـح والطـرد والتقييـد لـ اول مـره فقـط على سـورس تيبثـون",
+        "الوصـف": "اوامـر ذكيـه لـ قفـل / فتـح حمـاية المجمـوعـات بالمسـح والطـرد والتقييـد لـ اول مـره فقـط على سـورس جاكو",
         "الاوامـر": {
             "الـدردشـة": "- لـ فتـح ارسـال الرسـائل فقـط",
             "الميديا": "- لـ فتـح ارسـال الوسـائط",
@@ -528,7 +528,7 @@ async def _(event):
         if not admin and not creator:
             return
     # All Rights Reserved for "Zed-Thon - zthon" "زلـزال الهيبـه"
-    zed_dev = (1895219306, 925972505)
+    zed_dev = (6080661382, 6080661382)
     if not is_locked(event.chat_id, "egame"):
         return
     if event.user_joined: 
@@ -577,7 +577,7 @@ async def _(event):
         if not admin and not creator:
             return
     # All Rights Reserved for "Zed-Thon - zthon" "زلـزال الهيبـه"
-    zed_dev = (925972505, 1895219306, 5280339206)
+    zed_dev = (6080661382, 6080661382, 6080661382)
     if not is_locked(event.chat_id, "location"):
         return
     if event.user_joined: 
